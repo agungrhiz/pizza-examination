@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Pizza Examination</h1>
+
+    <section>
+        <h2>Pizza</h2>
+
+        <label class="content card" for="pizza_1">
+            <img src="image/1.jpg" alt="" />
+
+            <div class="desc">
+                <p class="title">Pizza 1</p>
+                <p>$8</p>
+
+                <div class="align-center">
+                    <input type="radio" name="pizza" id="pizza_1" value="pizza_1" />
+                </div>
+            </div>
+        </label>
+
+        <label class="content card" for="pizza_2">
+            <img src="image/2.jpg" alt="" />
+
+            <div class="desc">
+                <p class="title">Pizza 2</p>
+                <p>$10</p>
+
+                <div class="align-center">
+                    <input type="radio" name="pizza" id="pizza_2" value="pizza_2" />
+                </div>
+            </div>
+        </label>
+
+        <label class="content card" for="pizza_3">
+            <img src="image/3.jpg" alt="" />
+
+            <div class="desc">
+                <p class="title">Pizza 3</p>
+                <p>$12</p>
+
+                <div class="align-center">
+                    <input type="radio" name="pizza" id="pizza_3" value="pizza_3" />
+                </div>
+            </div>
+        </label>
+
+        <section>
+            <h2>Size</h2>
+
+            <label class="content align-center" for="size_small">
+                <input type="radio" name="size" id="size_small" value="small" />
+                <p>Small</p>
+            </label>
+
+            <label class="content align-center" for="size_medium">
+                <input type="radio" name="size" id="size_medium" value="medium" checked />
+                <p>Medium</p>
+            </label>
+
+            <label class="content align-center" for="size_large">
+                <input type="radio" name="size" id="size_large" value="large" />
+                <p>Large</p>
+            </label>
+        </section>
+
+        <section>
+            <h2>Toppings</h2>
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="topping" id="avocado" value="Avocado" />
+                        <label for="avocado">Avocado</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="lobster" value="Lobster" />
+                        <label for="lobster">Lobster</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="bacon" value="Bacon" />
+                        <label for="bacon">Bacon</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="topping" id="broccoli" value="Broccoli" />
+                        <label for="broccoli">Broccoli</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="oyster" value="Oyster" />
+                        <label for="oyster">Oyster</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="duck" value="Duck" />
+                        <label for="duck">Duck</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="topping" id="onions" value="Onions" />
+                        <label for="onions">Onions</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="salmon" value="Salmon" />
+                        <label for="salmon">Salmon</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="ham" value="Ham" />
+                        <label for="ham">Ham</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="topping" id="zucchini" value="Zucchini" />
+                        <label for="zucchini">Zucchini</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="tuna" value="Tuna" />
+                        <label for="tuna">Tuna</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="topping" id="sausage" value="Sausage" />
+                        <label for="sausage">Sausage</label>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Price</h2>
+
+            <p id="price">$0</p>
+        </section>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+p.title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.card {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+.card:hover {
+  border: 1px solid #777;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+}
+
+.content {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+td {
+  width: 40%;
+}
